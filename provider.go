@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
+	"strings"
 	"sync"
 
 	"github.com/desertbit/timer"
@@ -110,7 +111,7 @@ func NewProvider(issuer *url.URL, config *ProviderConfig) (*Provider, error) {
 	if config.WellKnownURI != nil {
 		p.wellKnownURI = config.WellKnownURI
 	} else {
-		relativeWellKnownURI, err := url.Parse("/.well-known/openid-configuration")
+		relativeWellKnownURI, err := url.Parse(strings.TrimRight(issuer.Path, "/") + "/.well-known/openid-configuration")
 		if err != nil {
 			return nil, err
 		}
