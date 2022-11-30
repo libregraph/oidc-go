@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 Kopano
+ * Copyright 2019 - 2022 Kopano
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-package oidc // import "stash.kopano.io/kgol/oidc-go"
+package oidc // import "github.com/libregraph/oidc-go"

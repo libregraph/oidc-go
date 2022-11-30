@@ -1,4 +1,4 @@
-# oidc-go [![GoDoc](https://godoc.org/stash.kopano.io/kgol/oidc-go?status.svg)](https://godoc.org/stash.kopano.io/kgol/oidc-go)
+# oidc-go [![GoDoc](https://godoc.org/github.com/libregraph/oidc-go?status.svg)](https://godoc.org/github.com/libregraph/oidc-go)
 
 Oidc-go is a Go package to provide common helpers to interface with OpenID
 Connect servers.
@@ -6,5 +6,5 @@ Connect servers.
 ## Installation
 
 ```text
-go get stash.kopano.io/kgol/oidc-go
+go get github.com/libregraph/oidc-go
 ```
